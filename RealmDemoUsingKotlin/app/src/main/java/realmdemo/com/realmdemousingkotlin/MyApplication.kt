@@ -8,7 +8,7 @@ class MyApplication : Application(){
     override fun onCreate() {
         super.onCreate()
         Realm.init(this)
-        val realmConfiguration= RealmConfiguration.Builder().schemaVersion(1).name("user").build()
+        val realmConfiguration= RealmConfiguration.Builder().schemaVersion(1).name("user1").build()
         Realm.setDefaultConfiguration(realmConfiguration)
     }
 
